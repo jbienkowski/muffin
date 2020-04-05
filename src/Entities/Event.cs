@@ -8,7 +8,6 @@ namespace Muffin.Entities
 {
     public class Event : FdsnEntityBase
     {
-        [MaxLength(50)]
         public DateTime? Time { get; set; }
     }
 }

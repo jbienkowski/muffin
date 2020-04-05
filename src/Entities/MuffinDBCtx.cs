@@ -11,6 +11,8 @@ namespace Muffin.Entities
             Configuration.LazyLoadingEnabled = true;
         }
 
+        public DbSet<Node> Nodes { get; set; }
         public DbSet<Event> Events { get; set; }
+        public DbSet<Station> Stations { get; set; }
     }
 }
